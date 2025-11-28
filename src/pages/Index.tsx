@@ -45,12 +45,15 @@ const Index = () => {
   ];
 
   const works = [
-    { title: 'Снежинки из бумаги', description: 'Красивые ажурные снежинки', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/0898ed06-9f8b-46c0-afa8-1c36a3aaea92.jpg' },
-    { title: 'Ёлочные игрушки', description: 'Расписные шары и фигурки', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/0898ed06-9f8b-46c0-afa8-1c36a3aaea92.jpg' },
-    { title: 'Новогодние открытки', description: 'Открытки для родителей', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/0898ed06-9f8b-46c0-afa8-1c36a3aaea92.jpg' },
-    { title: 'Гирлянды', description: 'Яркие украшения для группы', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/0898ed06-9f8b-46c0-afa8-1c36a3aaea92.jpg' },
-    { title: 'Дед Мороз и Снегурочка', description: 'Фигурки из различных материалов', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/0898ed06-9f8b-46c0-afa8-1c36a3aaea92.jpg' },
-    { title: 'Зимние пейзажи', description: 'Рисунки и аппликации', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/0898ed06-9f8b-46c0-afa8-1c36a3aaea92.jpg' },
+    { title: 'Снежинки из бумаги', description: 'Красивые ажурные снежинки', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/28c5c05e-8ffa-438f-aa2a-c9f604e0b7c3.jpg' },
+    { title: 'Ёлочные игрушки', description: 'Расписные шары и фигурки', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/2955516a-83fe-4295-83b3-dfd21a7b5376.jpg' },
+    { title: 'Новогодние открытки', description: 'Открытки для родителей', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/b0fefa83-dc6c-4e48-a331-324baec24009.jpg' },
+    { title: 'Гирлянды', description: 'Яркие украшения для группы', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/b6560d58-2194-4d2a-ab47-d38baa133dc0.jpg' },
+    { title: 'Дед Мороз и Снегурочка', description: 'Фигурки из различных материалов', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/48e11261-2636-4a65-854b-085555e8ca61.jpg' },
+    { title: 'Зимние пейзажи', description: 'Рисунки и аппликации', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/b62bd67f-99be-4cd9-97db-eadb47eba4d8.jpg' },
+    { title: 'Ангелочки', description: 'Рождественские ангелы из бумаги', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/c685b674-d41d-4039-8368-939d52b059a5.jpg' },
+    { title: 'Новогодние носочки', description: 'Яркие носки для подарков', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/72cedceb-7953-4c4b-95b8-87aba941a1bb.jpg' },
+    { title: 'Ёлочки из бумаги', description: 'Объёмные новогодние ёлки', image: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/0898ed06-9f8b-46c0-afa8-1c36a3aaea92.jpg' },
   ];
 
   const participants = [
@@ -266,14 +269,24 @@ const Index = () => {
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
-              {[1, 2, 3].map((_, index) => (
+              {[
+                { img: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/9325016f-e51e-4664-8381-3fb5e6f0596a.jpg', title: 'Творческий процесс' },
+                { img: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/b312ce00-3c0e-4987-b511-3ec611e307b9.jpg', title: 'Роспись игрушек' },
+                { img: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/19a99b9b-abd4-462a-99b5-a21f9e373e7e.jpg', title: 'Вырезаем снежинки' },
+                { img: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/0b2fa9f9-faf8-471a-8c2f-ccf412671be4.jpg', title: 'Наша группа' },
+                { img: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/39a94192-90de-4b87-9718-8897d93d01ad.jpg', title: 'Дружная команда' },
+                { img: 'https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/57479ec7-d117-4f50-ba59-0f9c6ef55a45.jpg', title: 'Мастерская в работе' },
+              ].map((photo, index) => (
                 <Card key={index} className="overflow-hidden group hover:shadow-2xl transition-all duration-300 border-2 border-secondary/20">
                   <div className="relative h-80 overflow-hidden">
                     <img
-                      src="https://cdn.poehali.dev/projects/47926e46-bfe9-4d61-b25d-3853d5f0e860/files/39a94192-90de-4b87-9718-8897d93d01ad.jpg"
-                      alt={`Фото ${index + 1}`}
+                      src={photo.img}
+                      alt={photo.title}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+                      <h3 className="text-white text-xl font-bold">{photo.title}</h3>
+                    </div>
                   </div>
                 </Card>
               ))}
